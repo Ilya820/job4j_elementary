@@ -16,5 +16,4 @@ class RectangleAreaTest {
         double output = RectangleArea.square(p, k);
         assertThat(output).isEqualTo(expected, withPrecision(0.01));
     }
-
 }
